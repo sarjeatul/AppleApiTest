@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   
+<suite name="Test" verbose="1" parallel="tests" thread-count="1">
+<test name="sampleAppleApiTest" preserve-order="true">
+      <classes>
+         <class name="applestorecheckapi.test.AppleStoreStatusApiTest" >
+            <methods>
+               <include name="countryStatusTest" />
+            </methods>
+         </class> 
+         
+      </classes>
+   </test>
+ 
+</suite>
